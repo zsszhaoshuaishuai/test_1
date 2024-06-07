@@ -5,9 +5,6 @@ class AlgoBase
 {
 public:
     virtual ~AlgoBase() {};
-
-    virtual void Init() = 0;
-    virtual void UnInit() = 0;
     virtual void Configure() = 0;
 };
 
